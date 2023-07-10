@@ -1,0 +1,64 @@
+body {
+    font-family: 'Google Sans';
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .img-container {
+    position: relative;
+  }
+  
+  img {
+    height: 250px;
+    border-radius: 8px;
+  }
+  
+  canvas {
+    border-radius: 8px;
+    left: 0;
+    position: absolute;
+    opacity: .65;
+    top: 0;
+    visibility: visible;
+  }
+  
+  .buttons {
+    margin-left: 20px;
+  }
+  
+  .model {
+    display: flex;
+    align-items: center;
+  }
+  
+  .result {
+    margin-left: 20px;
+  }
+  
+  .btn {
+    border: 1px solid #888;
+    cursor: pointer;
+    width: 150px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .btn.disabled {
+    color: #bbb;
+    border-color: #bbb;
+    pointer-events: none;
+  }
+  
+  .btn:hover {
+    background-color: #eee;
+  }
+  
+  .box-container {
+    position: absolute;
+  }
+  

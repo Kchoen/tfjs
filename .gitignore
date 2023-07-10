@@ -1,0 +1,7 @@
+node_modules/
+server.crt
+server.key
+download/*
+!download/.empty
+upload/*
+!upload/.empty
